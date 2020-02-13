@@ -20,24 +20,24 @@ organizations:
   url: "https://www.uco.es/ayrna/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include machine learning, time series analysis, ordinal classification.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Machine learning
+- Time series analysis
+- Ordinal classification
 
 education:
   courses:
   - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
+    institution: University of Córdoba
+    year: 2017-curr.
   - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+    institution: International University of Menéndez Pelayo
+    year: 2017
+  - course: BSc in Computer Science
+    institution: University of Córdoba
+    year: 2016
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -46,21 +46,28 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
+  link: mailto:dguijo@uco.es
+- icon: linkedin
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://www.linkedin.com/in/david-guijo-rubio-921709109/?locale=en_US
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/dguijo
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.es/citations?user=aG8sIxUAAAAJ&hl=en
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-8035-4057
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/David_Guijo-Rubio
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -72,6 +79,8 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I was born in Córdoba, Spain. I received the B.S. degree in Computer Science from the University of Córdoba, Córdoba, Spain, in 2016, and the M.Sc. degree in Artificial Intelligence from the International University of Menendez Pelayo, Madrid, Spain, in 2017. I am currently pursuing the Ph.D. degree in Computer Science and Artificial Intelligence with the Department of Computer Cience and Numerical Analysis, University of Córdoba.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My current research interests include a wide range of topics concerning machine learning and time series data mining.
+
+I usually spend my free time in scouts (I am a leisure time monitor of teenagers between 14 and 17 years old). I also love feeling at one with nature and doing sport, which keeps me energic and alive. Travels are my.
