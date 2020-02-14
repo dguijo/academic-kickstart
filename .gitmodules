@@ -3,7 +3,7 @@
 	url = https://github.com/gcushen/hugo-academic.git
 [submodule "public"]
 	path = public
-	url = git@github.com:dguijo/dguijo.github.io.git
+	url = https://github.com/dguijo/dguijo.github.io.git
 	branch = master
 [submodule "public/dguijo.github.io"]
 	path = public/dguijo.github.io
