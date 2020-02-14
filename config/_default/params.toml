@@ -90,7 +90,7 @@ address = {street = "Albert Einstein Building, Campus Rabanales, Carretera Nacio
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.915295", longitude = "-4.719139"}, 
+coordinates = {latitude = "37.915295", longitude = "-4.719139"}
 
 # Directions for visitors to locate you.
 directions = "Enter Albert Einstein Building and take the stairs to Floor 3."
@@ -269,4 +269,3 @@ plugins_js  = []
 
 
 
-baseurl = "https://dguijo.github.io/"
