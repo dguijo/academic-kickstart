@@ -1,0 +1,19 @@
+Hay veces que falla el publications dando error:
+
+Error: Error building site: failed to render pages: render of "page" failed: "/home/david/My_Website/themes/academic/layouts/publication/single.html:14:10": execute of template failed: template: publication/single.html:14:10: executing "main" at <(.Params.publication_types) and (ne (index .Params.publication_types 0) "0")>: can't give argument to non-function .Params.publication_types
+
+
+Se soluciona modificando:
+
+{{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
+
+por esta linea:
+
+{{ if and (.Params.publication_types) (ne (index .Params.publication_types 0) "0") }}
+
+en el fichero:
+
+themes/academic/layouts/publication/single.html
+
+REFERENCIA: https://github.com/wowchemy/wowchemy-hugo-modules/commit/88d83a615c6bbdc6f280aecff3f7e993161d9a94
+

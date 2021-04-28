@@ -1,0 +1,58 @@
+Para añadir la fecha y la revista en una publicación he creado el siguiente fichero: page_metadata_2.html en la carpeta: themes/academic/layouts/partials/page_metadata_2.html
+
+Es similar al page_metadata_2.html, solo que le he quitado los autores.
+
+Este fichero hay que incluirlo en li_list.html, que está en: themes/academic/layouts/partials/li_list.html
+
+Se ha incluido este código debajo de cuando se incluyen los autores. 
+
+  {{ if and $show_publication $item.Params.publication }}
+  <div class="article-metadata">
+    {{ partial "page_metadata_2" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+Y además he definido 
+
+{{ $show_publication := false}}
+
+El cual pongo a true cuando sea una publicación:
+
+{{ else if eq $item.Type "publication" }}
+  {{ $show_authors = true }}
+  {{ $show_publication = true}}
+  {{ $show_buttons = true }}
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+Para poner el nombre del autor principal (en este caso el mío) hay que modificar las siguientes líneas en el fichero: themes/academic/layouts/partials/page_metadata_authors.html
+
+Quedando el fichero así:
+
+
+{{/* Display author list. */}}
+
+{{- $taxonomy := "authors" }}
+{{ if .Param $taxonomy }}
+  {{ $link_authors := site.Params.link_authors | default true }}
+  {{ range $index, $value := (.GetTerms $taxonomy) }}
+    {{- /* Check if a profile was created for this user. */ -}}
+    {{- $profile_page := isset .Page.Params "superuser"  | markdownify -}}
+
+    {{- if gt $index 0 }}, {{ end -}}
+    <span>
+      {{- if and $profile_page $link_authors -}}
+        {{- if eq .LinkTitle "David Guijo-Rubio" -}}
+          <b>{{ .LinkTitle }}</b>
+        {{- else -}}
+          {{ .LinkTitle }}
+        {{- end -}}    
+      {{- else -}}
+          {{ .LinkTitle }}
+      {{- end -}}
+    </span>
+  {{- end -}}
+{{- end -}}
+
+
+He hecho una copia del fichero original que está en page_metadata_authors_ORIGINAL.html

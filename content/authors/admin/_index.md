@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD. Student
+role: Data Scientist
 
 # Organizations/Affiliations
 organizations:
@@ -79,8 +79,8 @@ user_groups:
 - Visitors
 ---
 
-I was born in Córdoba, Spain. I received the B.S. degree in Computer Science from the University of Córdoba, Córdoba, Spain, in 2016, and the M.Sc. degree in Artificial Intelligence from the International University of Menendez Pelayo, Madrid, Spain, in 2017. I am currently pursuing the Ph.D. degree in Computer Science and Artificial Intelligence with the Department of Computer Cience and Numerical Analysis, University of Córdoba.
+I was born in Córdoba, Spain. I received the B.S. degree in Computer Science from the University of Córdoba, Córdoba, Spain, in 2016, and the M.Sc. degree in Artificial Intelligence from the International University of Menendez Pelayo, Madrid, Spain, in 2017. I am currently pursuing the Ph.D. degree in Computer Science and Artificial Intelligence with the Department of Computer Sciences and Numerical Analysis, University of Córdoba.
 
 My current research interests include a wide range of topics concerning machine learning and time series data mining.
 
-I usually spend my free time in scouts (I am a leisure time monitor of teenagers between 14 and 17 years old). I also love feeling at one with nature and doing sport, which keeps me energic and alive. Travels are my.
+I usually spend my free time working with scouts (I am a leisure time monitor for teenagers between 14 and 17 years old). Travelling is another passion of mine. I love being at one with nature and doing sport, which keeps me feeling energetic and alive.
