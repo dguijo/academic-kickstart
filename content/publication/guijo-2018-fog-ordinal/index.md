@@ -59,6 +59,5 @@ abstract: The prediction of low-visibility events is very important in many huma
   in daily time-horizon, improving the results obtained by the persistence model and
   alternative prediction schemes tested.
 publication: '*Atmospheric Research*'
-url_pdf: doi.org/10.1016/j.atmosres.2018.07.017
-doi: https://doi.org/10.1016/j.atmosres.2018.07.017
+doi: 10.1016/j.atmosres.2018.07.017
 ---

@@ -50,5 +50,5 @@ abstract: 'Purpose of review: Machine Learning techniques play an important role
   consistent and high quality databases for ML algorithms, aiming to robust and fair
   approaches to support expert decision-making systems.'
 publication: '*Current Opinion in Organ Transplantation*'
-url_pdf: doi.org/10.1097/MOT.0000000000000774
+doi: 10.1097/MOT.0000000000000774
 ---

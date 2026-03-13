@@ -6,7 +6,7 @@ title: Short- and long-term energy flux prediction using Multi-Task Evolutionary
 subtitle: ''
 summary: ''
 authors:
-- '**David Guijo-Rubio**'
+- David Guijo-Rubio
 - Antonio Manuel Gómez-Orellana
 - Pedro Antonio Gutiérrez
 - César Hervás-Martínez
@@ -54,6 +54,5 @@ abstract: This paper presents a novel approach to tackle simultaneously short- a
   the results also confirm that reanalysis data is enough for describing well the
   problem tackled.
 publication: '*Ocean Engineering*'
-url_pdf: doi.org/10.1016/j.oceaneng.2020.108089
 doi: 10.1016/j.oceaneng.2020.108089
 ---

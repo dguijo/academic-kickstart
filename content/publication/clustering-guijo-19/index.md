@@ -16,7 +16,7 @@ tags:
 - segmentation
 - feature extraction
 categories: []
-date: '2020-01-01'
+date: '2021-11-01'
 lastmod: 2021-04-28T11:37:53+02:00
 featured: false
 draft: false
@@ -38,8 +38,32 @@ projects: []
 publishDate: '2021-04-28T09:37:53.206767Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'Time-series clustering is the process of grouping
+time series with respect to their similarity or characteristics.
+Previous approaches usually combine a specific distance mea-
+sure for time series and a standard clustering method. However,
+these approaches do not take the similarity of the different sub-
+sequences of each time series into account, which can be used
+to better compare the time-series objects of the dataset. In this
+article, we propose a novel technique of time-series clustering
+consisting of two clustering stages. In a first step, a least-squares
+polynomial segmentation procedure is applied to each time series,
+which is based on a growing window technique that returns
+different-length segments. Then, all of the segments are pro-
+jected into the same dimensional space, based on the coefficients
+of the model that approximates the segment and a set of statisti-
+cal features. After mapping, a first hierarchical clustering phase
+is applied to all mapped segments, returning groups of segments
+for each time series. These clusters are used to represent all time
+series in the same dimensional space, after defining another spe-
+cific mapping process. In a second and final clustering stage, all
+the time-series objects are grouped. We consider internal clus-
+tering quality to automatically adjust the main parameter of
+the algorithm, which is an error threshold for the segmenta-
+tion. The results obtained on 84 datasets from the UCR Time
+Series Classification Archive have been compared against three
+state-of-the-art methods, showing that the performance of this
+methodology is very promising, especially on larger datasets.'
 publication: '*IEEE Transactions on Cybernetics*'
-url_pdf: doi.org/10.1109/TCYB.2019.2962584
 doi: 10.1109/TCYB.2019.2962584
 ---

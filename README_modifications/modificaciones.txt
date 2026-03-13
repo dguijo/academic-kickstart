@@ -25,6 +25,24 @@ El cual pongo a true cuando sea una publicación:
 
 ==================================================================================================================================================================================================================================================================================================================================================
 
+Para meter un nuevo tipo de publicación hay que dárselo en el .md de cada uno de los artículos. Además, en el /layouts/partials/widgets/pages.html hay que declararlo, a partir de la línea 90. Hay que:
+  
+      {{ $.Scratch.Set "bookchapters" 0 }}
+      ... (código que ya existe en la web)
+
+    {{ else if in .Params.publication_types "6" }}
+      {{ $.Scratch.Add "bookchapters" 1 }}
+
+      ... (código que ya existe en la web)
+
+      <h2>{{ $.Scratch.Get "bookchapters" | markdownify | emojify }} {{ i18n "bookchapters_name" | markdownify }}</h2>
+
+      ... (código que ya existe en la web)
+
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
 Para poner el nombre del autor principal (en este caso el mío) hay que modificar las siguientes líneas en el fichero: themes/academic/layouts/partials/page_metadata_authors.html
 
 Quedando el fichero así:
@@ -55,4 +73,92 @@ Quedando el fichero así:
 {{- end -}}
 
 
+También le he metido color negro para diferenciarlo aún más. 
+
 He hecho una copia del fichero original que está en page_metadata_authors_ORIGINAL.html
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
+He realizado unos cambios en la estética de la página principal incluyendo los iconos del futbol, videojuegos, camping, scouts, etc.
+
+Para ello he creado el fichero: /My_Website/layouts/partials/widgets/about-mod.html
+
+Que es una copia del original que está en el themes.
+
+Principalmente he añadido los iconos y especificado los colores para las institutions y el education.
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
+En el footer he comentado para que no aparezca nada más que mi nombre.
+
+themes/academic/layouts/partials/site_footer.html
+
+
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
+Para que me funcione el formulario, he tenido que modificar en el fichero layouts/partials/widget/contact.html la línea:
+
+{{ $post_action = printf "action=\"https://formspree.io/%s\"" $data.email }}
+
+por la linea:
+
+{{ $post_action = printf "action=\"%s\"" $data.action }}
+
+para que el formulario esté enganchado con el sistema de formspree que es el que me reenvía a mi el mail que ha sido enviado. 
+
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
+
+En el fichero li_list.html de layouts/partials he incluido  lo siguiente:
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05); 
+}
+</style>
+
+
+Modificando también la línea antigua: 
+
+<div class="view-list-item">
+
+por la nueva: 
+
+<div class="zoom" class="view-list-item">
+
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
+Se ha creado un css customizado para incluir modificaciones. Entre otras, se ha añadido el zoom para los elementos de los TFG. 
+
+Este css está en /assets/scss/custom.scss.
+
+
+==================================================================================================================================================================================================================================================================================================================================================
+
+
+CONTADOR CON LAS PUBLICACIONES:
+
+En el documento /layouts/partial/widgets/pages.html hay un contador con las publicaciones. Este contador se muestra en la página principal. Para habilitarlo hay que poner a true el show_counter = false que está en /content/{es-en}/home/publications.md. 
+
+
+==================================================================================================================================================================================================================================================================================================================================================

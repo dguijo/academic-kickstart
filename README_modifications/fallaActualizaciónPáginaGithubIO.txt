@@ -1,0 +1,4 @@
+puede darse el caso de que no se actualice el github.io. 
+Para ello entrar en public/en y copiar el contenido y reemplazar en public/
+
+Eso pasa por el baseurl, que al tener dguijo.com y dguijo.es ya no funcionará correctamente. 

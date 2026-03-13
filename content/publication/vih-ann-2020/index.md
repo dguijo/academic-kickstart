@@ -15,7 +15,7 @@ authors:
 - Juan Carlos Fernández
 - Pedro Antonio Gutiérrez
 - Antonio Rivero
-- César Hervás-Mart\ńez
+- César Hervás-Martínez
 tags:
 - Hepatitis C Virus
 - Artificial Neural Networks
@@ -43,8 +43,26 @@ projects: []
 publishDate: '2021-04-28T09:37:52.989254Z'
 publication_types:
 - '2'
-abstract: ''
+abstract: 'Several European countries have established criteria for prioritising initiation of
+treatment in patients infected with the hepatitis C virus (HCV) by grouping patients
+according to clinical characteristics. Based on neural network techniques, our objective
+was to identify those factors for HIV/HCV co-infected patients (to which clinicians have
+given careful consideration before treatment uptake) that have not being included
+among the prioritisation criteria. This study was based on the Spanish HERACLES
+cohort (NCT02511496) (April-September 2015, 2940 patients) and involved application
+of different neural network models with different basis functions (product-unit, sigmoid
+unit and radial basis function neural networks) for automatic classification of patients
+for treatment. An evolutionary algorithm was used to determine the architecture and
+estimate the coefficients of the model. This machine learning methodology found that
+radial basis neural networks provided a very simple model in terms of the number of
+patient characteristics to be considered by the classifier (in this case, six), returning a
+good overall classification accuracy of 0.767 and a minimum sensitivity (for the
+classification of the minority class, untreated patients) of 0.550. Finally, the area under
+the ROC curve was 0.802, which proved to be exceptional. The parsimony of the model
+makes it especially attractive, using just eight connections. The independent variable
+"recent PWID" is compulsory due to its importance. The simplicity of the model means
+that it is possible to analyse the relationship between patient characteristics and the
+probability of belonging to the treated group.'
 publication: '*PLoS One*'
-url_pdf: doi.org/10.1371/journal.pone.0227188
 doi: 10.1371/journal.pone.0227188
 ---

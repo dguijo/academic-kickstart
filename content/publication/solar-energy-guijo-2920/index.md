@@ -57,6 +57,5 @@ abstract: 'This paper evaluates the performance of different evolutionary neural
   neural networks tested, and alternative Machine Learning approaches such as Support
   Vector Regressors or Extreme Learning Machines.'
 publication: '*Energy*'
-url_pdf: doi.org/10.1016/j.energy.2020.118374
 doi: 10.1016/j.energy.2020.118374
 ---

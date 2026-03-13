@@ -59,5 +59,5 @@ abstract: The prediction of convective clouds formation is a very important prob
   models obtain high quality solutions to this problem, due to its high unbalance
   characteristic.
 publication: '*Neural Computing and Applications*'
-url_pdf: doi.org/10.1007/s00521-020-04795-w
+doi: 10.1007/s00521-020-04795-w
 ---

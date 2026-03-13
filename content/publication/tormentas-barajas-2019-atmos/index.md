@@ -8,7 +8,7 @@ summary: ''
 authors:
 - David Guijo-Rubio
 - Carlos Casanova-Mateo
-- Juilia Sanz-Justo
+- Julia Sanz-Justo
 - Pedro Antonio Gutiérrez
 - Sara Cornejo-Bueno
 - César Hervás-Martínez
@@ -62,6 +62,5 @@ abstract: In this paper we tackle a problem of convective situations analysis at
   in the case of thunderstorms and Cumulonimbus clouds, which represent a real hazard
   for the airport operations.
 publication: '*Atmospheric Research*'
-url_pdf: doi.org/10.1016/j.atmosres.2019.104798
 doi: 10.1016/j.atmosres.2019.104798
 ---

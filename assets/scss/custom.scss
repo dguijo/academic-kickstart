@@ -1,0 +1,53 @@
+/* Modificando el aspecto que tienen los bloques de citas, que se utilizan en los TFG */
+
+blockquote {
+	position: relative;
+	padding: 1.6em 2.4em .7em;
+	font: white;
+	border: 2px solid #f76497;
+}
+
+blockquote blockquote {
+	font: bold .9rem;
+	border: 0px solid;
+}
+
+blockquote p {
+	color: white;
+}
+
+
+/* Añadiendo la clase zoom que amplia un poco el elemento cuando el ratón se posiciona encima */
+
+* {
+  box-sizing: border-box;
+}
+
+.tfm {
+  margin: 0 auto;
+  transition: .3s ease all;
+}
+
+.tfm blockquote{
+  border: 2px solid #28a745;
+}
+
+.tfm blockquote blockquote {
+	font: bold .9rem;
+	border: 0px solid;
+}
+
+
+.zoom {
+  margin: 0 auto;
+  transition: .3s ease all;
+  color: #28a745;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05);
+}
+
+

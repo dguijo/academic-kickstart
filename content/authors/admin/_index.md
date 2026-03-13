@@ -10,28 +10,28 @@ authors:
 superuser: true
 
 # Role/position
-role: Data Scientist
+role: Lecturer <br> (Machine learning)
 
 # Organizations/Affiliations
 organizations:
-- name: University of Córdoba
-  url: "https://www.uco.es"
 - name: AYRNA research group
   url: "https://www.uco.es/ayrna/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include machine learning, time series analysis, ordinal classification.
+bio: Lecturer
 
 interests:
-- Machine learning
-- Time series analysis
+- Time series clustering
+- Time series extrinsic regression
+- Time series classification
 - Ordinal classification
+- Machine learning applications (health and renewable energies)
 
 education:
   courses:
   - course: PhD in Artificial Intelligence
     institution: University of Córdoba
-    year: 2017-curr.
+    year: 2021
   - course: MEng in Artificial Intelligence
     institution: International University of Menéndez Pelayo
     year: 2017
@@ -65,22 +65,22 @@ social:
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: https://dguijo.github.io/files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "dguijo [at] uco [dot] es"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+user_groups: []
 ---
 
-I was born in Córdoba, Spain. I received the B.S. degree in Computer Science from the University of Córdoba, Córdoba, Spain, in 2016, and the M.Sc. degree in Artificial Intelligence from the International University of Menendez Pelayo, Madrid, Spain, in 2017. I am currently pursuing the Ph.D. degree in Computer Science and Artificial Intelligence with the Department of Computer Sciences and Numerical Analysis, University of Córdoba.
+I am a **lecturer** at the [Computer Science department](https://www.uco.es/dptos/ccia/) of the University of Córdoba (Spain). Besides, I have also been a postdoc researcher at both the [Signal Theory department](https://www.uah.es/en/conoce-la-uah/campus-centros-y-departamentos/departamentos/Teoria-de-la-Senal-y-Comunicaciones/) and the [School of Computer Science](https://research-portal.uea.ac.uk/en/organisations/school-of-computing-sciences) of the University of East Anglia (United Kingdom). My current research interests include a wide variety of topics, among them, machine learning and time series data mining. More specifically, preprocessing, clustering, prediction, regression, and ordinal and nominal classification. On the other hand, I have been involved in numerous scientific projects, which denote the interdisciplinarity of the area to which I am dedicated, among others, renewable energies, detection of atmospheric events and health-based problems (COVID19, HIV-HCV and Liver transplantation).
 
-My current research interests include a wide range of topics concerning machine learning and time series data mining.
+I am **PhD in Artificial Intelligence** by the University of Cordoba in 2021 (see [dissertation](files/dissertation.pdf)), **MEng in Artificial Intelligence Research** by the Menendez Pelayo International University in 2017 and **BSc in Computer Engineering** by the University of Cordoba in 2016. Check my [main publications](publication) and [teaching](teaching) to learn more about them.
 
-I usually spend my free time working with scouts (I am a leisure time monitor for teenagers between 14 and 17 years old). Travelling is another passion of mine. I love being at one with nature and doing sport, which keeps me feeling energetic and alive.
+Most of my spare time is dedicated to volunteering, mainly to my Scout Group (I am a leisure time monitor for teenagers between 14 and 17 years old). I also enjoy travelling, being surrounded by nature and doing sport, which keeps me feeling energetic and alive.
+
+

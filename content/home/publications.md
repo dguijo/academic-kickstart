@@ -11,6 +11,9 @@ title = "Publications"
 subtitle = ""
 
 [content]
+  # Shows the counter of publication types.
+  show_counter = false
+  
   # Page type to display. E.g. post, talk, or publication.
   page_type = "publication"
   
@@ -56,7 +59,7 @@ subtitle = ""
   # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  # text_color_light = false  
   
 [advanced]
  # Custom CSS. 
@@ -66,9 +69,3 @@ subtitle = ""
  css_class = ""
 
 +++
-
-{{% alert note %}}
-Quickly discover more publications by [filtering them]({{< ref "/publication/_index.md" >}}).
-{{% /alert %}}
-
-
